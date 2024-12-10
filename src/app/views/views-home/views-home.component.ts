@@ -17,7 +17,7 @@ export class ViewsHomeComponent {
  ];
 
  items  = [
-  { image: '../../assets/img/couch.jpeg', title:'Couch', description: 'This is a fantastic Couch to sit on' },
-  { image: 'assets/img/dresser.jpeg', title:'Dresser', description: 'This is a great Dresser to put staff' }
+  { imageUrl: 'assets/images/couch.jpeg', title:'Couch', description: 'This is a fantastic Couch to sit on' },
+  { imageUrl: 'assets/images/dresser.jpeg', title:'Dresser', description: 'This is a great Dresser to put staff' }
  ]
 }
