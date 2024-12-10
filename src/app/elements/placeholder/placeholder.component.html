@@ -1,0 +1,12 @@
+
+<div class="ui placeholder">
+    <div *ngIf="{hasHeader}" class="image header">
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="paragraph" >
+        <div *appTimes="lines; i as index; times as count;" class="line">
+            {{index}}
+        </div>
+    </div>
+</div>
